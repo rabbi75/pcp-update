@@ -306,11 +306,12 @@ body{
 .color_section {
     padding-top: 90px;
 }
-.padding_less{
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+.padding_less {
+    /* padding-left: 2px; */
+    /* padding-right: 2px; */
+    /* padding-top: 2px; */
+    /* padding-bottom: 2px; */
+    padding: 5px;
 }
 .color_div{
     background-color: #FA585A;
