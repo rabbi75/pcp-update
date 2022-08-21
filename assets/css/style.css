@@ -282,6 +282,7 @@ body{
     .header_content h2 {
         font-weight: 600;
         text-align: center;
+        padding-right: 0px;
     }
 }
 .hero_section_footer ul li:last-child {
@@ -1986,4 +1987,24 @@ element.style {
 .faq_content h4{
     font-weight: 600;
     padding-top: 50px;
+}
+
+/*Term & Condition*/
+
+.term_condition{
+    padding-top: 70px;
+}
+.term_condition span{
+    color: var(--green);
+}
+.term_condition h2{
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.term_condition ul{
+    padding-left: 30px;
+}
+.term_condition ul li {
+    line-height: 30px;
 }
