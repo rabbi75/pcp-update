@@ -2021,3 +2021,39 @@ element.style {
 .term_condition ul li {
     line-height: 30px;
 }
+
+@media (max-width: 425px) {
+    .first_section_heading h1 {
+        font-size: 35px;
+    }
+    .second_section h2 {
+        font-size: 29px;
+        text-align: left;
+    }
+    .second_section p {
+        font-size: 22px;
+        text-align: justify;
+        margin-left: 0px;
+    }
+    .bg_remove_fifth_section p {
+        text-align: justify;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+    .bg_remove_fifteen_section h2 {
+        padding-top: 50px;
+    }
+    .why_pcp {
+        padding-bottom: 40px;
+    }
+    .pricing {
+        padding-bottom: 30px;
+    }
+    .contact_content_left h2 {
+        text-align: center;
+    }
+    .details_form.mt-5 {
+        margin-bottom: 40px;
+    }
+}
