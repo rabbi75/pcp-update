@@ -126,3 +126,19 @@ function sliderMouseLeave() {
 //             $(this).removeClass('open');
 //         });
 // });
+
+// let navBar = document.querySelector('.navbar')
+// // navBar
+// window.addEventListener('scroll', () => {
+//     let navBar = document.getElementById('nav-bar')
+//
+//     if (window.scrollY > 0) {
+//         navBar.style.background = '#fff'
+//         navBar.style.transition = '.5s'
+//         navBar.style.top = '0px'
+//     } else {
+//         navBar.style.background = 'transparent'
+//         navBar.style.transition = '.5s'
+//         navBar.style.top = '50px'
+//     }
+// })
