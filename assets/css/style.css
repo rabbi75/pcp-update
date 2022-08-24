@@ -248,7 +248,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     list-style: none;
-    line-height: 30px;
+    line-height: 40px;
 }
 .header_content ul li i{
     padding-right: 7px;
@@ -2190,6 +2190,20 @@ element.style {
 }
 .offer_content ul li a:hover {
     background-color: #765894;
+}
+.card_quote {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px dashed var(--green);
+    border-radius: 0.25rem;
+}
+.right_side_box img{
+    padding-bottom: 20px;
 }
 
 @media (max-width: 425px) {
