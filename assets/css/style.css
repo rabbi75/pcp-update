@@ -229,7 +229,7 @@ body{
 /*}*/
 .header_content h2 {
     font-weight: 600;
-    text-align: left;
+    text-align: center;
 }
 .header_content_image{
     width: 100%;
@@ -237,7 +237,8 @@ body{
 }
 
 .hero_section_left {
-    padding-left: 10%;
+    /* padding-left: 10%; */
+    text-align: center;
 }
 
 .header_content ul {
