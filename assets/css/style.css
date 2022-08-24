@@ -136,6 +136,9 @@ body{
     background-color: var(--purple);
     color: var(--white)!important;
 }
+.send_us_offer:hover {
+    background-color: var(--off_purple);
+}
 @media (max-width: 768px) {
     .send_us_offer {
         margin-top: 3px;
