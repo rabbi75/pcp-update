@@ -16,11 +16,13 @@ window.addEventListener('scroll', () => {
             navBar.style.zIndex = '9'
             navBar.style.width = '100%'
             navBar.style.borderTop = 'none';
+            navBar.style.boxShadow = '0px 0px 10px 0px #9f9f9f';
         }else {
             navBar.style.background = 'linear-gradient(to right, #E2EAED 50%, #AFE3CD 50%)';
             navBar.style.borderTop = '1px solid #A8A8A8';
             navBar.style.transition = '.5s';
             navBar.style.top = '50px';
+            navBar.style.boxShadow = 'none';
             sectionGap.style.marginTop = '90px';
         }
 

@@ -2215,6 +2215,11 @@ element.style {
     padding-bottom: 20px;
 }
 
+.btn-check:focus+.btn, .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 @media (max-width: 425px) {
     .first_section_heading h1 {
         font-size: 35px;
