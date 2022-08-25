@@ -1,4 +1,36 @@
 
+window.addEventListener('scroll', () => {
+    let navBar = document.getElementById('nav-bar')
+    let sectionGap = document.getElementById('sectionGap')
+
+    if (window.innerWidth > 1024) {
+
+        if (window.scrollY > 0) {
+            navBar.style.background = '#fff'
+            navBar.style.transition = '.5s'
+            navBar.style.top = '0px'
+            navBar.style.left = '0px'
+            navBar.style.paddingRight = '15px'
+            navBar.style.paddingLeft = '15px'
+            navBar.style.position = 'fixed'
+            navBar.style.zIndex = '9'
+            navBar.style.width = '100%'
+            navBar.style.borderTop = 'none';
+        }else {
+            navBar.style.background = 'linear-gradient(to right, #E2EAED 50%, #AFE3CD 50%)';
+            navBar.style.borderTop = '1px solid #A8A8A8';
+            navBar.style.transition = '.5s';
+            navBar.style.top = '50px';
+            sectionGap.style.marginTop = '90px';
+        }
+
+    }
+
+})
+
+
+
+
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -127,21 +159,6 @@ function sliderMouseLeave() {
 //         });
 // });
 
-let navBar = document.querySelector('.navbar')
+// let navBar = document.querySelector('.navbar')
 // navBar
-window.addEventListener('scroll', () => {
-    let navBar = document.getElementById('nav-bar')
 
-    if (window.scrollY > 0) {
-        navBar.style.background = '#fff'
-        navBar.style.transition = '.5s'
-        navBar.style.top = '0px'
-        navBar.style.position = 'fixed'
-        navBar.style.zIndex = '9'
-        navBar.style.width = '100%'
-    } else {
-        navBar.style.background = 'transparent'
-        navBar.style.transition = '.5s'
-        navBar.style.top = '50px'
-    }
-})

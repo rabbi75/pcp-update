@@ -129,7 +129,7 @@ body{
 .send_us_offer {
     font-size: 16px;
     font-family: 'DM Sans',Helvetica,Arial,Lucida,sans-serif!important;
-    margin-right: 14px;
+    /*margin-right: 14px;*/
     border-radius: 0px 10px 0px 10px;
     padding: 3px 7px;
     margin-top: 3px;
@@ -2264,6 +2264,9 @@ element.style {
 
     .hero_section_left {
          padding-left: 0%;
+    }
+    .header_content ul li {
+        text-align: left;
     }
 }
 @media (max-width: 320px) {
