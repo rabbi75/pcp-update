@@ -154,7 +154,7 @@ body{
     font-size: 16px;
     font-family: 'DM Sans',Helvetica,Arial,Lucida,sans-serif!important;
     font-weight: 600;
-    background-color: var(--purple);
+    background-color: var(--purple)!important;
 }
 .get_a_quote:hover {
     color: var(--white);
@@ -2218,6 +2218,11 @@ element.style {
 .btn-check:focus+.btn, .btn:focus {
     outline: none;
     box-shadow: none;
+}
+.btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:active {
+    color: var(--white);
+    background-color: var(--off_purple);
+    border-color: var(--off_purple);
 }
 
 @media (max-width: 425px) {
