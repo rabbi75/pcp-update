@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital@0;1&display=swap');
 :root {
     --white: #ffffff;
     --off_white: #A8A8A8;
@@ -2223,6 +2224,219 @@ element.style {
     color: var(--white);
     background-color: var(--off_purple);
     border-color: var(--off_purple);
+}
+
+/*pricing css start*/
+
+.pricing_section {
+    background-color: #faf5ff;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-top: 36px;
+}
+.pricing_section h2 {
+    font-family: Livvic,sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+.single_price_div{
+    background-color: #f9f9f9;
+    padding: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.price_img_div {
+    transition: .5s;
+}
+.single_price_div:hover .price_img_div{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.clip_img{
+    background-color: #FA585A;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.price_img_div img{
+    height: auto;
+    width: 100px;
+    padding: 10px;
+}
+
+.back_img {
+    background-color: #67B6F4;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.mask_img{
+    background-color: #FA585A;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.shad_img{
+    background-color: #9D91F5;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.ghost_img{
+    background-color: #FFCD1E;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.colorChange_img{
+    background-color: #9D91F5;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.retouch_img{
+    background-color: #FFCD1E;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.multi_clip_img{
+    background-color: #FA585A;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.multi_clip_img img{
+    padding-top: 25px;
+}
+
+.vector_img{
+    background-color: #67B6F4;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.vector_img img{
+    padding-top: 20px;
+}
+
+
+
+.pricing_section .clipping h2 {
+    color: #FA585A;
+    padding-top: 10px;
+}
+.pricing_section .clipping p{
+    color: #2B1B9A;
+    font-size: 18px;
+}
+
+.pricing_section .background h2{
+    color: #67B6F4;
+    padding-top: 10px;
+}
+
+.pricing_section .background p{
+    color: #2B1B9A;
+    font-size: 18px;
+}
+
+.pricing_section .masking h2{
+    color: #FA585A;
+}
+
+.pricing_section .masking p{
+    color: #2B1B9A;
+    font-size: 18px;
+}
+
+.pricing_section .shadow_title h2{
+    color: #9D91F5;
+}
+
+.pricing_section .shadow_title p{
+    color: #2B1B9A;
+    font-size: 18px;
+}
+
+.pricing_section .ghost_meni h2{
+    color: #FFCD1E;
+}
+
+.pricing_section .ghost_meni p{
+    color: #2B1B9A;
+    font-size: 18px;
+}
+
+.pricing_section .changeColor h2{
+    color: #9D91F5;
+}
+
+.pricing_section .changeColor p{
+    color: #2B1B9A;
+    font-size: 18px;
+}
+
+.pricing_section .photoRetouch h2{
+    color: #FFCD1E;
+}
+
+.pricing_section .photoRetouch p{
+    color: #2B1B9A;
+    font-size: 18px;
+}
+
+.pricing_section .multiClip h2{
+    color: #FA585A;
+}
+
+.pricing_section .multiClip p{
+    color: #2B1B9A;
+    font-size: 18px;
+}
+
+.pricing_section .vectorConvert h2{
+    color: #67B6F4;
+}
+
+.pricing_section .vectorConvert p{
+    color: #2B1B9A;
+    font-size: 18px;
+}
+
+
+.pricing_section .starting_tag{
+    background-color: #e6e6e6;
+    padding: 5px 0;
+    color: #2B1B9A;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.pricing_section .per_img_price{
+    background-color: #ffffff;
+    padding: 5px 0;
+    color: #2B1B9A;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.pricing_section .per_img_price .price{
+    font-size: 25px;
+    font-weight: 700;
 }
 
 @media (max-width: 425px) {
