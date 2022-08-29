@@ -269,7 +269,13 @@
                     <p>Send us your photos and images by uploading them here.</p>
 
                     <div class="file-upload-wrapper">
-                        <input type="file" id="input-file-max-fs" class="file-upload" data-max-file-size="2M" />
+<!--                        <input type="file" id="input-file-max-fs" class="file-upload" data-max-file-size="2M" />-->
+                        <div class="upload_section text-center" data-name="trial-files">
+                            <h2>Drag & Drop Files Here</h2>
+                            <p>or</p>
+                            <label for="file_upload">Upload Your File</label>
+                            <input type="file" id="file_upload" multiple="multiple" data-name="trial-files" data-type="jpg|png|jpeg|svg" data-limit="5242880" data-max="5" data-id="1288" accept=".jpg, .png, .jpeg, .svg">
+                        </div>
                     </div>
 
                     <div class="drive_link_div">
